@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enricozon</title>
+    <link rel="icon" href="immagini/logoattuale/heasershoplogo.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+    <img class="logo" src="immagini/logoattuale/enricozon.png" alt="Logo Heaser Shop">
+   </header>
+    <main>
+        <section id="products">
+            
+            <div class="product">
+                <a href="prodotti/maglia-trapstar-sintetica/index.html"></a>
+                <img src="immagini/prodotti/trapstar-maglia-azzurra-sintetica.jpg">
+                <h2>Maglia TrapStar sintetica</h2>
+                <p class="price">€35.00</p></a>
+                <button onclick="addToCart('Maglia da calcio TrapStar', 35.00)">Aggiungi al carrello</button>
+            </div>
+            
+            <div class="product">
+                <img src="immagini/prodotti/trapstar-maglia-nera.webp">
+                <h2>Maglia TrapStar in cotone</h2>
+                <p class="price">€35.00</p>
+                <button onclick="addToCart('TrapStar Maglia', 35.00)">Aggiungi al carrello</button>
+            </div>
+            <div class="product">
+                <img src="immagini/prodotti/dior-b22-nere.png">
+                <h2>Christian<br>Dior<br>B22</h2>
+                <p class="price">€230.00</p>
+                <button onclick="addToCart('Dior B22', 230.00)">Aggiungi al carrello</button>
+            </div>
+            <div class="product">
+                <img src="immagini/prodotti/cintura-lv.nera.jpg">
+                <h2>Cintura Louis Vuitton</h2>
+                <p class="price">€35.00</p>
+                <button onclick="addToCart('Cintura Louis Vuitton', 35.00)">Aggiungi al carrello</button>
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Carrello</h2>
+            <ul id="cart-items"></ul>
+            <p id="total-price">Totale: €0.00</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>Enricozon</h3>
+                <p>© 2024 Formatiks Team<br> Tutti i diritti riservati.</p>
+            </div>
+            <div class="footer-middle">
+                <ul>
+                    <li><a href="https://www.instagram.com/heaser_shop?igsh=NDNxMHljbzBpNGJy&utm_source=qr"><ion-icon name="logo-instagram"></ion-icon>&nbsp;&nbsp;Instagram</a></li>
+                    <li><a href="#"><ion-icon name="people-outline"></ion-icon>&nbsp;&nbsp;Chi siamo</a></li>
+                    <li><a href="#"><ion-icon name="file-tray-stacked-outline"></ion-icon>&nbsp;&nbsp;Servizi</a></li>
+                    <li><a href="#"><ion-icon name="mail-outline"></ion-icon>&nbsp;&nbsp;Email</a></li>
+                </ul>
+            </div>
+        
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
