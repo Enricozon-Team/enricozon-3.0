@@ -6,6 +6,36 @@
     <title>Enricozon</title>
     <link rel="icon" href="immagini/logoattuale/heasershoplogo.jpg">
     <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+    />
+
+    <meta name="description" content="Miglior mercato di sempre" />
+    <meta property="og:title" content="Enricozon" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Miglior mercato di sempre. Creato da: cranci, enriccio, Cholito, Tanoshi, TheProcionCatIta"
+    />
+    <meta
+      property="og:image"
+      content="https://www.enricozon.mom/immagini/loghi/logo.jpeg"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      href="https://enricozon.mom/immagini/loghi/logo.jpeg"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="https://enricozon.mom/immagini/loghi/logo.jpeg"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Enricozon" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Enricozon" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 </head>
 <body>
    <header>
@@ -15,13 +45,29 @@
         <section id="products">
             
             <div class="product">
+                
+                <img src="immagini/prodotti/mandarino-removebg-preview.png">
+                <h2>Mandarino Fresco Km 0</h2>
+                <p class="price">€104,00</p></a>
+               
+            </div>
+            
+            <div class="product">
+                <a href="prodotti/maglia-trapstar-sintetica/index.html"></a>
+                <img src="immagini/prodotti/trapstar-maglia-azzurra-sintetica.jpg">
+                <h2>Maglia TrapStar sintetica</h2>
+                <p class="price">€35.00</p></a>
+                <button onclick="addToCart('Maglia da calcio TrapStar', 35.00)">Visualizza prodotto</button>
+            </div>
+
+            <div class="product">
                 <a href="prodotti/maglia-trapstar-sintetica/index.html"></a>
                 <img src="immagini/prodotti/trapstar-maglia-azzurra-sintetica.jpg">
                 <h2>Maglia TrapStar sintetica</h2>
                 <p class="price">€35.00</p></a>
                 <button onclick="addToCart('Maglia da calcio TrapStar', 35.00)">Aggiungi al carrello</button>
             </div>
-            
+
             <div class="product">
                 <img src="immagini/prodotti/trapstar-maglia-nera.webp">
                 <h2>Maglia TrapStar in cotone</h2>
@@ -41,11 +87,7 @@
                 <button onclick="addToCart('Cintura Louis Vuitton', 35.00)">Aggiungi al carrello</button>
             </div>
         </section>
-        <section id="cart">
-            <h2>Carrello</h2>
-            <ul id="cart-items"></ul>
-            <p id="total-price">Totale: €0.00</p>
-        </section>
+       
     </main>
     <footer class="footer">
         <div class="footer-container">
